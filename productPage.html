@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+            integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <!--  Font Awsome  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        
+        <!--  Custom CSS  -->
+        <link rel="stylesheet" href="css/style.css">
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </head>
+	<body>
+		<!--  nav upper  -->
+		<nav class="navbar navUp py-0 px-2 w-100 d-flex flex-row">
+            <button class="navbar-toggler navbar-toggler-right" type="button" 
+                    data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">STYLE webShop</a>
+            <form class="form-inline ml-auto my-2 my-lg-0">
+                <div class="input-group">
+                    <input type="text" class="form-control search" placeholder="Search our store...">
+                    <span class="input-group-btn">
+                    <button class="btn btn-secondary submit" type="button">
+                    <span class="fa fa-search" aria-hidden="true"></span>
+                    </button>
+                    </span>
+                </div>
+            </form>
+        </nav>
+        
+        <!--  nav bottom  -->
+        
+        <nav class="navbar navDown navbar-inverse bg-inverse navbar-toggleable-md p-0 w-100">
+            
+            <button class="navbar-toggler navbar-toggler-right" type="button" 
+                    data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item px-1 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-1 dropdown">
+                        <a class="nav-link dropdown-toggle" 
+                            href="http://example.com" id="menNavbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Women Collection</span>
+                            <span class="fa fa-angle-down px-1" aria-hidden="true"></span>
+                        </a>
+                        <div class="dropdown-menu" 
+                            aria-labelledby="menListNavbarDropdownMenuLink">
+                            <a class="dropdown-item pl-3" href="#">Action</a>
+                            <a class="dropdown-item pl-3" href="#">Another action</a>
+                            <a class="dropdown-item pl-3" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown px-1">
+                        <a class="nav-link dropdown-toggle" 
+                            href="http://example.com" id="menNavbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Men Collection</span>
+                            <span class="fa fa-angle-down px-1" aria-hidden="true"></span>
+                        </a>
+                        <div class="dropdown-menu" 
+                            aria-labelledby="menListNavbarDropdownMenuLink">
+                            <div class="intoSedondLevel">
+                                <a class="dropdown-item" href="#">
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                    <span>Action</span>
+                                </a>
+                                <div class="hiddenSubMenu py-2">
+                                    <a class="dropdown-item pl-3" href="#">Another action</a>
+                                    <a class="dropdown-item pl-3" href="#">Something else here</a>
+                                </div>
+                            </div>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">For kids</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Winter Collection</a>
+                    </li>
+                    <li class="nav-item px-1 wish">
+                        <a class="nav-link" 
+                            href="http://example.com" 
+                            aria-haspopup="true" 
+                            aria-expanded="false">
+                            
+                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                            <span class="px-1">Wishlist</span> 
+                            <span>( 1 )</span>
+                        </a>
+                    </li>
+                    <li class="nav-item cart dropdown px-2">
+                        <a class="nav-link dropdown-toggle" 
+                            href="http://example.com" id="navbarDropdownMenuLink" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
+                            <span class="fa fa-opencart" aria-hidden="true"></span>
+                            <span class="px-1">Cart</span> 
+                            <span>( 1 )</span>
+                            <span class="fa fa-angle-down pl-2" aria-hidden="true"></span>
+                        </a>
+                        <div class="cartItems dropdown-menu dropdown-menu-right py-0" 
+                            aria-labelledby="navbarDropdownMenuLink">
+                            
+                            <div class="header p-3 mb-3">
+                                <div class="d-flex flex-row">
+                                    <a href="/productPage.html" class="btn btn-sm btn-secondary mr-3">
+                                        Go to cart
+                                    </a>
+                                    <span class="total">Total:</span>
+                                    <span class="ml-auto px-3">600 $</span>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3 item">
+                                <div class="d-flex flex-row">
+                                    <div class="col-md-2 col-lg-3 hidden-sm-down px-0 imgCart">
+                                        <img class="img-fluid" src="img/mencollection2.jpg">
+                                    </div>
+                                    <div class="col-12 col-md-10 contentCart">
+                                        <div class="d-flex flex-row">
+                                            <h5 class="title redux" data-letters=10>
+                                                Some title Some title
+                                            </h5>
+                                            <span class="price ml-auto">200 $</span>
+                                        </div>
+                                        <span class="qty w-100">qty: 1</span>
+                                        <a href="/productPage.html" class="btn btn-secondary btn-sm d-block goTo">
+                                            Go to product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3 item">
+                                <div class="d-flex flex-row">
+                                    <div class="col-3 col-md-2 col-lg-3 hidden-sm-down px-0 imgCart">
+                                        <img class="img-fluid" src="img/mencollection.jpg">
+                                    </div>
+                                    <div class="col-12 col-md-10 contentCart">
+                                        <div class="d-flex flex-row">
+                                            <h5 class="title redux">
+                                                Some title
+                                            </h5>
+                                            <span class="price ml-auto">200 $</span>
+                                        </div>
+                                        <span class="qty w-100">qty: 1</span>
+                                        <a href="/productPage.html" class="btn btn-secondary btn-sm d-block goTo">
+                                            Go to product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3 item">
+                                <div class="d-flex flex-row">
+                                    <div class="col-3 col-md-2 col-lg-3 hidden-sm-down px-0 imgCart">
+                                        <img class="img-fluid" src="img/mencollection3.jpg">
+                                    </div>
+                                    <div class="col-12 col-md-10 contentCart">
+                                        <div class="d-flex flex-row">
+                                            <h5 class="title">
+                                                Some title
+                                            </h5>
+                                            <span class="price ml-auto">200 $</span>
+                                        </div>
+                                        <span class="qty w-100">qty: 1</span>
+                                        <a href="/productPage.html" class="btn btn-secondary btn-sm d-block goTo">
+                                            Go to product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+        
+		<!--  product  -->
+		<div class="col-12 col-md-10 mx-auto productPage page">
+			<div class="row">
+				<!--  product .picture -->
+				<div class="col-12 col-md-5 my-3 picture">
+					<div class="row">
+						<div class="col-8 mainImg">
+							<img class="img-fluid" src="img/mencollection.jpg">
+						</div>
+						<div class="col-4 otherImg">
+							<img class="img-fluid" src="img/mencollection.jpg">
+						</div>
+					</div>
+				</div>
+				<!--  product .productContent -->
+				<div class="col-12 col-md-7 my-3 productContent">
+					<h2>
+						Letther Jacket Rock Style
+					</h2>
+					<h4>
+						Men Collection
+					</h4>
+					<div class="h3 price mt-3">200 $</div>
+					<div class="h4 oldPrice py-2 d-block">old price: 200 $</div>
+					<div class="currentRating">
+						<span class="fa fa-star" data-rate=1 aria-hidden="true"></span>
+						<span class="fa fa-star" data-rate=2 aria-hidden="true"></span>
+						<span class="fa fa-star" data-rate=3 aria-hidden="true"></span>
+						<span class="fa fa-star" data-rate=4 aria-hidden="true"></span>
+						<span class="fa fa-star-o" data-rate=5 aria-hidden="true"></span>
+					</div>
+                    
+                    <div class="btn-toolbar my-3" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group my-1" role="group" aria-label="Second group">
+                            <button type="button" class="btn btn-secondary addToCard">
+                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                            Add To Cart
+                            </button>
+                        </div>
+                        <div class="btn-group my-1 mx-3" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-secondary">
+                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-secondary">
+                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-secondary">
+                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                    
+				</div>
+                <div class="col-12 mt-4 seeAlsow">
+                    <div class="row">
+                        <div class="productTabs px-3 my-3">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#descript" role="tab">
+                                        <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
+                                        <span class="hidden-sm-down">Descript</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#alsopurchased" role="tab">
+                                        <span class="fa fa-files-o" aria-hidden="true"></span>
+                                        <span class="hidden-sm-down">Also purchased</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#comment" role="tab">
+                                        <span class="fa fa-comments-o" aria-hidden="true"></span>
+                                        <span class="hidden-sm-down">Comment</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#rate" role="tab">
+                                        <span class="fa fa-bar-chart" aria-hidden="true"></span>
+                                        <span class="hidden-sm-down">Rate product</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#tags" role="tab">
+                                        <span class="fa fa-tags" aria-hidden="true"></span>
+                                        <span class="hidden-sm-down">Tags</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active py-3" id="descript" role="tabpanel">
+                                    <p>
+                                        Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, 
+                                        kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to,
+                                        że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: 
+                                        „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku.
+                                    </p>
+                                </div>
+                                <div class="tab-pane py-3" id="alsopurchased" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="productCard card w-100">
+                                                <img class="card-img-top img-fluid" src="img/womenApparel.jpg" alt="Card image cap">
+                                                <div class="card-block w-100 text-center">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">
+                                                        <span class="price">200 $</span>
+                                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                                    </p>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                                            <button type="button" class="btn btn-secondary addToCard">
+                                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                                            Add To Cart
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="productCard card w-100">
+                                                <img class="card-img-top img-fluid" src="img/mencollection2.jpg" alt="Card image cap">
+                                                <div class="card-block w-100 text-center">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">
+                                                        <span class="price">200 $</span>
+                                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                                    </p>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                                            <button type="button" class="btn btn-secondary addToCard">
+                                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                                                Add To Cart
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="productCard card w-100">
+                                                <img class="card-img-top img-fluid" src="img/womenApparel2.jpg" alt="Card image cap">
+                                                <div class="card-block w-100 text-center">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">
+                                                        <span class="price">200 $</span>
+                                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                                    </p>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                                            <button type="button" class="btn btn-secondary addToCard">
+                                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                                            Add To Cart
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-3">
+                                            <div class="productCard card w-100">
+                                                <img class="card-img-top img-fluid" src="img/wommenApparel3.jpg" alt="Card image cap">
+                                                <div class="card-block w-100 text-center">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">
+                                                        <span class="price">200 $</span>
+                                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                                    </p>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                                            <button type="button" class="btn btn-secondary addToCard">
+                                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                                            Add To Cart
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary">
+                                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane py-3" id="comment" role="tabpanel">
+                                    <div class="col-12 mb-3 py-3 commentItem">
+                                        <div class="row">
+                                            <div class="col-12 col-md-2 mb-4 commentImg">
+                                                <img class="img-fluid" src="img/avatar.png">
+                                                <h4 class="userName py-2">
+                                                    UserName
+                                                </h4>
+                                                <div class="d-flex flex-row">
+                                                    <span>comments: </span>
+                                                    <span class="commentCount pl-3">16 </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-10 commentContent">
+                                                <div class="d-flex flex-row">
+                                                    <h4 class="title">
+                                                        Comment Title
+                                                    </h4>
+                                                    <span class="ml-auto data">
+                                                    03.07.2017
+                                                    </span>
+                                                </div>
+                                                <p>
+                                                    Praesent eu condimentum ligula, vel laoreet eros. Fusce ullamcorper sagittis orci, 
+                                                    a tincidunt mi sollicitudin quis. Ut a laoreet nunc. Donec fringilla bibendum malesuada. 
+                                                    Curabitur lorem purus, tempor non mi ut, finibus commodo metus. 
+                                                    Aliquam vel magna sem. Aliquam erat volutpat.
+                                                </p>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-3 py-3 commentItem">
+                                        <div class="row">
+                                            <div class="col-12 col-md-2 mb-4 commentImg">
+                                                <img class="img-fluid" src="img/avatar.png">
+                                                <h4 class="userName py-2">
+                                                    UserName
+                                                </h4>
+                                                <div class="d-flex flex-row">
+                                                    <span>comments: </span>
+                                                    <span class="commentCount pl-3">16 </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-10 commentContent">
+                                                <div class="d-flex flex-row">
+                                                    <h4 class="title">
+                                                        Comment Title
+                                                    </h4>
+                                                    <span class="ml-auto data">
+                                                    03.07.2017
+                                                    </span>
+                                                </div>
+                                                <p>
+                                                    Praesent eu condimentum ligula, vel laoreet eros. Fusce ullamcorper sagittis orci, 
+                                                    a tincidunt mi sollicitudin quis. Ut a laoreet nunc. Donec fringilla bibendum malesuada. 
+                                                    Curabitur lorem purus, tempor non mi ut, finibus commodo metus. 
+                                                    Aliquam vel magna sem. Aliquam erat volutpat.
+                                                </p>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-3 py-3 commentItem">
+                                        <div class="row">
+                                            <div class="col-12 col-md-2 mb-4 commentImg">
+                                                <img class="img-fluid" src="img/avatar.png">
+                                                <h4 class="userName py-2">
+                                                    UserName
+                                                </h4>
+                                                <div class="d-flex flex-row">
+                                                    <span>comments: </span>
+                                                    <span class="commentCount pl-3">16 </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-10 commentContent">
+                                                <div class="d-flex flex-row">
+                                                    <h4 class="title">
+                                                        Comment Title
+                                                    </h4>
+                                                    <span class="ml-auto data">
+                                                    03.07.2017
+                                                    </span>
+                                                </div>
+                                                <p>
+                                                    Praesent eu condimentum ligula, vel laoreet eros. Fusce ullamcorper sagittis orci, 
+                                                    a tincidunt mi sollicitudin quis. Ut a laoreet nunc. Donec fringilla bibendum malesuada. 
+                                                    Curabitur lorem purus, tempor non mi ut, finibus commodo metus. 
+                                                    Aliquam vel magna sem. Aliquam erat volutpat.
+                                                </p>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane py-3" id="rate" role="tabpanel">
+                                    <div class="rating my-3">
+                                        <span class="fa fa-star" data-rate=1 aria-hidden="true"></span>
+                                        <span class="fa fa-star-o" data-rate=2 aria-hidden="true"></span>
+                                        <span class="fa fa-star-o" data-rate=3 aria-hidden="true"></span>
+                                        <span class="fa fa-star-o" data-rate=4 aria-hidden="true"></span>
+                                        <span class="fa fa-star-o" data-rate=5 aria-hidden="true"></span>
+                                    </div>
+                                    <div class="result">
+                                        <span>1</span> / 5
+                                    </div>
+                                    <a class="btn btn-secondary mt-3">
+                                        <span class="fa fa-check-square-o pr-2" aria-hidden="true"></span>
+                                        <span>Submit</span>
+                                    </a>
+                                </div>
+                                <div class="tab-pane py-3 tags" id="tags" role="tabpanel">
+
+                                    <span class="badge badge-default mb-2"><a>Jacket</a></span>
+                                    <span class="badge badge-default mb-2"><a>Lether</a></span>
+                                    <span class="badge badge-default mb-2"><a>Men Collection</a></span>
+                                    <span class="badge badge-default mb-2"><a>Spring</a></span>
+                                    <span class="badge badge-default mb-2"><a>Summer</a></span>
+                                    <span class="badge badge-default mb-2"><a>Motocycle</a></span>
+                                    <span class="badge badge-default mb-2"><a>Casual</a></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <h2 class="title">
+                                In this collection
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/mencollection2.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/mencollection3.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/mencollection4.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/mencollection5.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 inCollection">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title">
+                                See alsow
+                            </h2>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/womenApparel5.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/womenApparel6.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/wommenApparel3.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card productCard w-100" style="width: 20rem;">
+                                <img class="card-img-top img-fluid" src="img/womenApparel.jpg" alt="Card image cap">
+                                <div class="card-block w-100 text-center">
+                                    <h4 class="card-title">
+                                        <a href="productPage.html">
+                                            Card title
+                                        </a>
+                                    </h4>
+                                    <p class="card-text">
+                                        <span class="price">200 $</span>
+                                        <span class="oldPrice d-block py-2">old price: 200 $</span>
+                                    </p>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary addToCard">
+                                            <span class="fa fa-opencart pr-1" aria-hidden="true"></span>
+                                            Add To Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group my-1 mx-auto" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-heart-o" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-retweet" aria-hidden="true"></span>
+                                            </button>
+                                            <button type="button" class="btn btn-secondary">
+                                            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<footer class="col-12 py-4">
+            <div class="row">
+                <div class="col-12 col-md-4 item">
+                    <ul>
+                        <li class="title">
+                            <h3>
+                                Title
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="">
+                            Some link
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            Some link
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            Some link
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 item">
+                    <ul>
+                        <li class="title">
+                            <h3>
+                                Title
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="">
+                            Some link
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            Some link
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            Some link
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 item social">
+                    <ul>
+                        <li>
+                            <h3 class="logo">
+                                STYLE webShop
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="">
+                            Newsletter
+                            </a>
+                        </li>
+                        <li>
+                            <div class="input-group col-6 px-0">
+                                <input type="text" class="form-control search" placeholder="Your email...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-secondary submit" type="button">
+                                <span class="fa fa-check" aria-hidden="true"></span>
+                                </button>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="topScoller text-center">
+            <span class="fa fa-angle-up" aria-hidden="true"></span>
+        </div>
+        
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</body>
+</html>
